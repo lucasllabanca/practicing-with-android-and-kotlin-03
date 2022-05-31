@@ -15,7 +15,7 @@ import com.google.firebase.messaging.RemoteMessage
 
 private const val TAG = "FCMService"
 
-class FCMService : FirebaseMessagingService() {
+class FCMService: FirebaseMessagingService() {
 
     override fun onNewToken(token: String) {
         Log.d(TAG, "FCM token: $token")
